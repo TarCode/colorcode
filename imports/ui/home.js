@@ -27,7 +27,7 @@ export default class extends Component {
             }}>Enter</a>
             */}
             <p className='main-subheader'>
-              Learn to code <br /><span className="hide-on-med-and-down">from a community of people who are passionate about code and teaching!</span>
+              Learn to code from a community of people who are passionate about code and teaching!
             </p>
           </div>
         </div>
@@ -61,6 +61,7 @@ export default class extends Component {
             </div>
           </div>
         </div>
+        {/*
         <div className='row center'>
           <h3>Some of the stuff you can learn...</h3>
           <br />
@@ -77,6 +78,7 @@ export default class extends Component {
             <img src="/mongodb.png" className='tech-logo' />
           </div>
         </div>
+        */}
         <div id="overlay" className="overlay" onClick={() => {
           document.getElementById('overlay').style.pointerEvents = 'none'
         }}></div>
