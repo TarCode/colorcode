@@ -126,9 +126,9 @@ export default class extends Component {
             display: 'inline-block',
             position: 'relative'
           }}
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCuJIM07mVc2Ytg9DJ6z2HZskF_oqTfDtk&q=greenpoint+co+working+space+cape+town" allowFullScreen>
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.4832756115175!2d18.456109550783427!3d-33.92869628054461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5da6d93de68b%3A0xb42beaf0cba44b75!2sUber5+-+Building+Internet+Stuff+for+Humans!5e0!3m2!1sen!2sza!4v1503032609478" allowFullScreen>
         </iframe>
-      </div> 
+      </div>
     )
   }
 }
