@@ -22,9 +22,10 @@ export default class extends Component {
           <div className="container center">
             <h1 className='main-header white-text'>COLOR CODE</h1>
             <br/>
-            <a href="#" className="btn amber darken-2" onClick={() => {
+            {/* <a href="#" className="btn amber darken-2" onClick={() => {
               history.push('/dashboard')
             }}>Enter</a>
+            */}
             <p className='main-subheader'>
               Learn to code <br /><span className="hide-on-med-and-down">from a community of people who are passionate about code and teaching!</span>
             </p>
