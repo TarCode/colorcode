@@ -34,32 +34,66 @@ export default class extends Component {
         <div id="about" className="row center">
         <br/><br/>
           <div className="container">
-            <h3>Who we are...</h3>
+            <h3>What is ColorCode?</h3>
             <p>
-              We are a bunch of diverse humanoid creatures who realised the positive impact technology can have on our reality as a whole
-                    and we wish to empower the next generation of innovators, creators and artists to build a better world for all.
-                  </p>
+              ColorCode is a place for anyone to learn how to code.
+              We're not prescriptive about what people should learn, but are more keen on hearing about what
+              problems people want to solve or what they want to do, and then set them on the right path to achieving those goals.
+              We also want to encourage those who are under-represented in tech (i.e. women, People of Colour , LGBTQ etc) to
+              participate and feel empowered.
+            </p>
           </div>
         </div>
         <div className="row center">
           <div className="col s12 m4">
             <div className="container">
-              <h6>Level 1</h6>
-              <p>HTML, CSS blah blah just a placeholderblah blah just a placeholder blah blah just a placeholder</p>
+              <h6>Why ColorCode?</h6>
+              <p>Community and consistency is important when learning to code. We provide a safe, consistent space in which people can learn how to solve problems with code,
+                build websites or think about how tech can help their small business.
+                </p>
             </div>
           </div>
           <div className="col s12 m4">
             <div className="container">
-              <h6>Level 2</h6>
-              <p>NodeJS, React blah blah just a placeholder blah blah just a placeholder blah blah just a placeholder</p>
+              <h6>When is ColorCode?</h6>
+              <p>
+                We meet every second Saturday, from about 9h30 to 13h00. See our <a href="https://twitter.com/ColorCodeCT">Twitter Feed</a> for dates and reminders.
+              </p>
             </div>
           </div>
           <div className="col s12 m4">
             <div className="container">
-              <h6>Level 3</h6>
-              <p>AI, VR, AR and other strange abbreviations people use for new tech blah blah just a placeholder</p>
+              <h6>Who is ColorCode for?</h6>
+              <p>Anyone, no matter your skill level, is welome at ColorCode. Tell us about what you want to do and we can assist in whatever way we can.</p>
             </div>
           </div>
+        </div>
+        <div className="row center">
+          <div className="col s12 m4">
+            <div className="container">
+              <h6>How much is ColorCode?</h6>
+              <p>It's free!</p>
+            </div>
+          </div>
+          <div className="col s12 m4">
+            <div className="container">
+              <h6>What do you need for ColorCode?</h6>
+              <p>
+                Your own laptop.
+              </p>
+            </div>
+          </div>
+          <div className="col s12 m4">
+            <div className="container">
+              <h6>Where is ColorCode?</h6>
+              <p>ColorCode is based in Cape Town. We usually meet at <a href="greenpointcoworking.co.za">Greenpoint Coworking</a>, but the venue may change from time to time</p>
+            </div>
+          </div>
+        </div>
+        <div className='row center'>
+          <h1>Our Next Workshop:</h1>
+          <p>Saturday the 19th of August, at the Uber5 offices in Salt River.</p>
+          <br/><br/>
         </div>
         {/*
         <div className='row center'>
