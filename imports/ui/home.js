@@ -20,7 +20,7 @@ export default class extends Component {
       <div id="home">
         <div className='main'>
           <div className="container center">
-            <h1 className='main-header white-text'>WE ARE COLOR CODE</h1>
+            <h1 className='main-header white-text'>COLOR CODE</h1>
             <br/>
             <a href="#" className="btn amber darken-2" onClick={() => {
               history.push('/dashboard')
