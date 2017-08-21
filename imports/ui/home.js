@@ -92,27 +92,47 @@ export default class extends Component {
         </div>
         <div className='row center'>
           <h1>Our Next Workshop:</h1>
-          <p>Saturday the 19th of August, at the Uber5 offices in Salt River.</p>
+          <p>Saturday the 2nd of September, at Greenpoint Coworking Space.</p>
           <br/><br/>
         </div>
-        {/*
+
         <div className='row center'>
-          <h3>Some of the stuff you can learn...</h3>
+          <h3>Some of the team...</h3>
           <br />
-          <div className='col s6 m3 tech-logo-container'>
-            <img src="/nodejs-icon.svg" className='tech-logo' />
+          <div className='col s6 m3'>
+            <img src="/avatars/emma.png" className='circle responsive-img' />
+            <br/>
+            <b className="team-text orange-text text-darken-2">Emma</b>
+            <br/>
+            <i>Uber5</i>
+            <br/><br/>
           </div>
-          <div className='col s6 m3 tech-logo-container'>
-            <img src="/meteor-icon.svg" className='tech-logo' />
+          <div className='col s6 m3'>
+            <img src="/avatars/nate.png" className='circle responsive-img' />
+            <br/>
+            <b className="team-text orange-text text-darken-2">Nathan</b>
+            <br/>
+            <i>Praekelt</i>
+            <br/><br/>
           </div>
-          <div className='col s6 m3 tech-logo-container'>
-            <img src="/react.svg" className='tech-logo' />
+          <div className='col s6 m3'>
+            <img src="/avatars/tar.png" className='circle responsive-img' />
+            <br/>
+            <b className="team-text orange-text text-darken-2">Taariq</b>
+            <br/>
+            <i>React Technology</i>
+            <br/><br/>
           </div>
-          <div className='col s6 m3 tech-logo-container'>
-            <img src="/mongodb.png" className='tech-logo' />
+          <div className='col s6 m3'>
+            <img src="/avatars/nurha.png" className='circle responsive-img' />
+            <br/>
+            <b className="team-text orange-text text-darken-2">Nurha</b>
+            <br/>
+            <i>Direct Axis</i>
+            <br/><br/>
           </div>
         </div>
-        */}
+
         <div id="overlay" className="overlay" onClick={() => {
           document.getElementById('overlay').style.pointerEvents = 'none'
         }}></div>
@@ -126,7 +146,7 @@ export default class extends Component {
             display: 'inline-block',
             position: 'relative'
           }}
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.4832756115175!2d18.456109550783427!3d-33.92869628054461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5da6d93de68b%3A0xb42beaf0cba44b75!2sUber5+-+Building+Internet+Stuff+for+Humans!5e0!3m2!1sen!2sza!4v1503032609478" allowFullScreen>
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.070347793704!2d18.41540931521132!3d-33.91358898064382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc675cf65a6981%3A0xe93cabfa81eda535!2sGreenpoint+Coworking!5e0!3m2!1sen!2sza!4v1503326942057" allowFullScreen>
         </iframe>
       </div>
     )

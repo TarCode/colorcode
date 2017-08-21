@@ -93,6 +93,11 @@ nav {
   z-index: 1000;
 }
 
+.team-text {
+ font-size: 20px;
+ line-height: 24px;
+
+}
 footer {
     padding-bottom: 0px;
 }
