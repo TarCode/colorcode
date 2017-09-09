@@ -92,7 +92,7 @@ export default class extends Component {
         </div>
         <div className='row center'>
           <h1>Our Next Workshop:</h1>
-          <p>Saturday the 2nd of September, at Greenpoint Coworking Space.</p>
+          <p>Saturday the 16th of September, at Greenpoint Coworking Space.</p>
           <br/><br/>
         </div>
 
